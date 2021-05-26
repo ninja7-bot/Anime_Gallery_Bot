@@ -1,3 +1,9 @@
+{
+      "name": "SaitamaRobot",
+      "description": "An Anime themed Telegram group management bot.",
+      "keywords": [ "telegram", "anime"],   
+      "repository": "https://github.com/AnimeKaizoku/SaitamaRobot",
+ 
    "env": {
       "BOT_TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
@@ -13,3 +19,5 @@
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": ""
+   }
+}
