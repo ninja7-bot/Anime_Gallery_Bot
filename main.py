@@ -8,7 +8,7 @@ api_id = os.environ.get('API_ID')
 api_hash = os.environ.get('API_HASH')
 bot_token = os.environ.get('BOT_TOKEN')
 
-bot = TelegramClient('gallery_bot', api_id, api_hash).start(bot_token=bot_token)
+bot = TelegramClient('anime_scrapper', api_id, api_hash).start(bot_token=bot_token)
 
 try:    # Anime Section
     
@@ -17,7 +17,7 @@ try:    # Anime Section
         await bot.send_message(
             event.chat_id,
             start_text,
-            file='https://tenor.com/view/chika-fujiwara-kaguya-sama-love-is-war-anime-wink-smile-gif-18043249'
+            file='https://www.icegif.com/wp-content/uploads/icegif-219.gif9'
         )
 
     @bot.on(events.NewMessage(pattern="/help"))
