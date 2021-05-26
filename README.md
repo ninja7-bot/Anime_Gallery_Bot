@@ -1,4 +1,4 @@
-# Anime_Gallery_Bot
-Telegram bot for Anime Gallery
+# Anime Scrapper.
 
-Will update this file when I am done adding all features i want
+
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ninja7-bot/Anime_Gallery_Bot)
