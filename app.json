@@ -1,8 +1,8 @@
 {
-      "name": "SaitamaRobot",
-      "description": "An Anime themed Telegram group management bot.",
+      "name": "Anime Scrapper",
+      "description": "Anime Scrapper",
       "keywords": [ "telegram", "anime"],   
-      "repository": "https://github.com/AnimeKaizoku/SaitamaRobot",
+      "repository": "https://github.com/ninja7-bot/Anime_Gallery_Bot/",
  
    "env": {
       "BOT_TOKEN": {
@@ -19,5 +19,6 @@
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": ""
+      }
    }
 }
