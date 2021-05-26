@@ -90,13 +90,13 @@ try:    # Anime Section
     async def event_handler_source(event):
         await bot.send_message(
             event.chat_id,
-            '[Source Code On Github](https://github.com/MiyukiKun/Anime_Gallery_Bot)\nThis bot was hosted on Heroku'
+            'Original [Source Code](https://github.com/MiyukiKun/Anime_Gallery_Bot)\nThis bot was hosted on Heroku.'
         )
     
     @bot.on(events.NewMessage(pattern="/batch"))
     async def event_handler_batch(event):
         if event.chat_id < 0:
-            await event.reply("If you want to download in batch contact me in pm\n@Anime_Gallery_Robot")
+            await event.reply("If you want to download in batch contact me in pm\n@Rias_Robot")
             return
         try:
             text = event.raw_text.split()
@@ -114,7 +114,7 @@ try:    # Anime Section
                         break
 
         except:
-            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or go to \n@Anime_Gallery_Robot_Support if you have any doubts")
+            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or join @ArenaComs and die.")
 
     @bot.on(events.NewMessage(pattern="/download"))
     async def event_handler_batch(event):
@@ -136,7 +136,7 @@ try:    # Anime Section
             )
 
         except Exception as e:
-            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or go to \n@Anime_Gallery_Robot_Support if you have any doubts")    
+            await event.reply("Something went wrong.....\nCheck if you entered command properly\n\nUse /help or join @ArenaComs and die.")    
             
 
     @bot.on(events.CallbackQuery(pattern=b"lt:"))
