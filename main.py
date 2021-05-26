@@ -17,7 +17,7 @@ try:    # Anime Section
         await bot.send_message(
             event.chat_id,
             start_text,
-            file='https://www.icegif.com/wp-content/uploads/icegif-219.gif9'
+            file='https://www.icegif.com/wp-content/uploads/icegif-219.gif'
         )
 
     @bot.on(events.NewMessage(pattern="/help"))
